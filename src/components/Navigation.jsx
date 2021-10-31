@@ -24,30 +24,28 @@ const Navigation = () => {
       </div>
       {isOpen ? (
         <div className="container dropdown-menu">
-          <div className="col-sm-6 col-md-6">
-            <div className="row row-main">
-              <a href="index.html" className="dropdown-menu-item">
-                Home
-              </a>
-            </div>
-            <div className="row row-me">
-              <a href="#me" className="dropdown-menu-item">
-                About
-              </a>
-            </div>
+          {/* <div className=""> */}
+          <div className=" dropdown-menu-button">
+            <a href="index.html" className="dropdown-menu-item">
+              Home
+            </a>
           </div>
-          <div className="col-sm-6 col-md-6">
-            <div className="row row-portfolio">
-              <a href="#portfolio" className="dropdown-menu-item">
-                Portfolio
-              </a>
-            </div>
-            <div className="row row-contact">
-              <a href="#contact" className="dropdown-menu-item">
-                Contact
-              </a>
-            </div>
+          <div className=" dropdown-menu-button">
+            <a href="#me" className="dropdown-menu-item">
+              About
+            </a>
           </div>
+          <div className=" dropdown-menu-button">
+            <a href="#portfolio" className="dropdown-menu-item">
+              Portfolio
+            </a>
+          </div>
+          <div className=" dropdown-menu-button">
+            <a href="#contact" className="dropdown-menu-item">
+              Contact
+            </a>
+          </div>
+          {/* </div> */}
         </div>
       ) : (
         ""
