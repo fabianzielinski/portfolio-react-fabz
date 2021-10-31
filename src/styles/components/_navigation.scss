@@ -38,12 +38,11 @@ nav {
   }
   .dropdown-menu {
     // position: fixed;
-    // justify-items: flex-end;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding: 5%;
-    height: 90vh;
+    height: 85vh;
     z-index: 3;
     opacity: 0.4;
     width: 100%;
@@ -57,11 +56,11 @@ nav {
       a {
         justify-content: center;
         margin: auto;
-        padding: 15vh clamp(8vh, 25%, 200px);
-        min-height: 150vh;
+        padding: 18vh clamp(8vh, 25%, 200px);
+        min-height: 100vh;
         background-color: lightblue;
         border: 1px black solid;
-        border-radius: 10%;
+        border-radius: 5%;
         min-width: 25%;
       }
     }
