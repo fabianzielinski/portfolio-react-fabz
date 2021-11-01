@@ -1,11 +1,6 @@
 nav {
   // position: fixed;
   width: 100%;
-  // display: flex;
-  // justify-content: center;
-  //   background: $main-white;
-  //   height: 70px;
-  //   height: 10%;
   padding: 1%;
   font-family: $font-calibri;
   //   box-shadow: 0 0 10px $main-black;
@@ -38,31 +33,48 @@ nav {
   }
   .dropdown-menu {
     // position: fixed;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    // display: flex;
+    // flex-wrap: wrap;
+    // align-items: center;
     padding: 5%;
+    // height: 85vh;
+    // z-index: 3;
+    // opacity: 0.4;
     height: 85vh;
-    z-index: 3;
-    opacity: 0.4;
-    width: 100%;
-    .dropdown-menu-button {
-      // margin: 1%;
-      // width: 100%;
-      // padding: auto;
-      width: calc((100% / 12) * 6);
-      flex: 0 0 calc((100% / 12) * 6);
-      max-width: calc((100% / 12) * 6);
-      a {
-        justify-content: center;
-        margin: auto;
-        padding: 18vh clamp(8vh, 25%, 200px);
-        min-height: 100vh;
-        background-color: lightblue;
-        border: 1px black solid;
-        border-radius: 5%;
-        min-width: 25%;
+    display: grid;
+    grid-template: auto;
+    grid-template-areas: "main me" "main portfolio" "contact portfolio";
+    gap: 2%;
+    a {
+      // justify-content: center;
+      // justify-items: center;
+      border: 1px black solid;
+      border-radius: 5%;
+      text-align: center;
+      // align-items: center;
+      padding: auto;
+      &:hover {
+        color: $main-white;
       }
+      h1 {
+        margin-top: 50%;
+      }
+    }
+    .dropdown-menu-main {
+      grid-area: main;
+      background-color: $main-green;
+    }
+    .dropdown-menu-me {
+      grid-area: me;
+      background-color: $main-blue;
+    }
+    .dropdown-menu-portfolio {
+      grid-area: portfolio;
+      background-color: $main-green;
+    }
+    .dropdown-menu-contact {
+      grid-area: contact;
+      background-color: $main-blue;
     }
   }
 }

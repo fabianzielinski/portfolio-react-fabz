@@ -23,29 +23,19 @@ const Navigation = () => {
         </div>
       </div>
       {isOpen ? (
-        <div className="container dropdown-menu">
-          {/* <div className=""> */}
-          <div className=" dropdown-menu-button">
-            <a href="index.html" className="dropdown-menu-item">
-              Home
-            </a>
-          </div>
-          <div className=" dropdown-menu-button">
-            <a href="#me" className="dropdown-menu-item">
-              About
-            </a>
-          </div>
-          <div className=" dropdown-menu-button">
-            <a href="#portfolio" className="dropdown-menu-item">
-              Portfolio
-            </a>
-          </div>
-          <div className=" dropdown-menu-button">
-            <a href="#contact" className="dropdown-menu-item">
-              Contact
-            </a>
-          </div>
-          {/* </div> */}
+        <div className="dropdown-menu">
+          <a href="index.html" className="dropdown-menu-main">
+            <h1>Home</h1>
+          </a>
+          <a href="#me" className="dropdown-menu-me">
+            <h1>About</h1>
+          </a>
+          <a href="#portfolio" className="dropdown-menu-portfolio">
+            <h1>Portfolio</h1>
+          </a>
+          <a href="#contact" className="dropdown-menu-contact">
+            <h1>Contact</h1>
+          </a>
         </div>
       ) : (
         ""
