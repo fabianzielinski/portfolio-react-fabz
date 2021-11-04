@@ -1,11 +1,13 @@
 // import { Rotate as Hamburger } from "hamburger-react";
 import Navigation from "./components/Navigation";
+import Header from "./sections/Header";
 
 function App() {
   return (
     <div className="App">
       <Navigation />
-      <h1>To ja</h1>
+      <Header />
+      {/* <h1>To ja</h1> */}
     </div>
   );
 }

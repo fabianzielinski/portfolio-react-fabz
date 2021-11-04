@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Rotate as Hamburger } from "hamburger-react";
+import { Gallery, Home, DocumentText, DirectboxNotif } from "iconsax-react";
 import imageLogo from "../images/logo_gray.png";
 
 const Navigation = () => {
@@ -25,16 +26,28 @@ const Navigation = () => {
       {isOpen ? (
         <div className="dropdown-menu">
           <a href="index.html" className="dropdown-menu-main">
-            <h1>Home</h1>
+            <div>
+              <Home size="80" color="#fff" variant="Broken" />
+              <h1>Home</h1>
+            </div>
           </a>
           <a href="#me" className="dropdown-menu-me">
-            <h1>About</h1>
+            <div>
+              <DocumentText size="60" color="#fff" variant="Broken" />
+              <h1>About</h1>
+            </div>
           </a>
           <a href="#portfolio" className="dropdown-menu-portfolio">
-            <h1>Portfolio</h1>
+            <div>
+              <Gallery size="60" color="#fff" variant="Broken" />
+              <h1>Portfolio</h1>
+            </div>
           </a>
           <a href="#contact" className="dropdown-menu-contact">
-            <h1>Contact</h1>
+            <div>
+              <DirectboxNotif size="80" color="#fff" variant="Broken" />
+              <h1>Contact</h1>
+            </div>
           </a>
         </div>
       ) : (
