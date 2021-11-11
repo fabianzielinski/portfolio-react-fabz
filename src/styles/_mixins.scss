@@ -1,0 +1,147 @@
+// media query
+@mixin mobile-large {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+
+@mixin tablet-small {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin tablet-large {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin max-mobile-large {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin max-tablet-small {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin section {
+  position: relative;
+  margin: 0 auto;
+}
+
+@mixin hex-top-left {
+  display: none;
+
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 125px;
+  }
+}
+
+@mixin hex-top-right {
+  display: none;
+
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 125px;
+  }
+}
+
+@mixin hex-mid-left {
+  display: none;
+
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    left: 20%;
+    top: 45%;
+  }
+}
+
+@mixin hex-mid-right {
+  display: none;
+
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    right: 20%;
+    top: 45%;
+  }
+}
+
+@mixin hex-center {
+  display: none;
+
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    right: 35%;
+    top: 45%;
+  }
+}
+
+@mixin hex-mid-top {
+  display: none;
+
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    right: 30%;
+    top: 25%;
+  }
+}
+
+@mixin hex-mid-bottom {
+  display: none;
+
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    right: 30%;
+    top: 70%;
+  }
+}
+
+@mixin hex-bottom-right {
+  display: none;
+
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    right: -2%;
+    top: 445px;
+    transform: rotate(180deg);
+  }
+}
+
+@mixin hex-bottom-left {
+  display: none;
+
+  @include tablet-large {
+    display: inline-block;
+    position: absolute;
+    left: -2%;
+    top: 445px;
+    transform: rotate(180deg);
+  }
+}

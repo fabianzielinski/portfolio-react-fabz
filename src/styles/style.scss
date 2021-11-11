@@ -1,0 +1,26 @@
+/* Var */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+
+@import "variables";
+@import "layout";
+@import "mixins";
+
+@import "normalize";
+
+/* Components */
+@import "components/navigation";
+// @import "components/footer";
+
+/* Sections */
+@import "sections/header";
+@import "sections/me";
+// @import "sections/portfolio";
+// @import "sections/contact";
+
+/* Pages / Views */
+// import "pages/registration";
+
+body {
+  background-color: $main-gray;
+}
