@@ -1,7 +1,7 @@
 // import hex_blue from "../images/hex_blue.svg";
 import {
   DecorationHexBlue,
-  DecorationHexGreen,
+  // DecorationHexGreen,
   DecorationHexDubleMix,
   DecorationHexMoreMix,
 } from "../components/Decoration";
@@ -12,7 +12,6 @@ const Me = () => {
       <div className="row">
         <dev className="col-sm-12 col-md-12">
           <h1>ABOUT ME :)</h1>
-          {/* <h3></h3> */}
         </dev>
         <div className="col-sm-12 col-md-6">
           <DecorationHexBlue localization={"decoration_hex-top-right"} />
@@ -68,6 +67,10 @@ const Me = () => {
             it. At the moment I create for myself and pleasure. I invite you to
             my Portfolio.
           </p>
+        </div>
+        <div className="col-sm-12 col-md-6">
+          {/* <DecorationHexGreen localization={"decoration_hex-top-right"} /> */}
+          <DecorationHexMoreMix localization={"decoration_hex-mid-right"} />
         </div>
         <div className="col-sm-12 col-md-6">
           <span className="me_title"></span>

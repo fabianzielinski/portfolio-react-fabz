@@ -9,7 +9,6 @@ function App() {
       <Navigation />
       <Header />
       <Me />
-      {/* <h1>To ja</h1> */}
     </div>
   );
 }
