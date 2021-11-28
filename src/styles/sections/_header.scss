@@ -4,6 +4,7 @@ header {
   background-color: $main-gray;
   color: $main-gray-lgh;
   text-align: center;
+  z-index: -1;
   // padding-top: 15%;
   .welcome {
     padding: 10% 0;
@@ -16,8 +17,9 @@ header {
       // min-width: 150px;
       max-width: fit-content;
       max-height: fit-content;
-      border-radius: 40%;
-      box-shadow: 0 0 10px $main-black;
+      // border-radius: 40%;
+      // box-shadow: 0 0 10px $main-black;
+      // box-shadow: 10px 10px 5px $main-black;
     }
   }
 }

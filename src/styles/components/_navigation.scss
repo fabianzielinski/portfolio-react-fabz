@@ -7,9 +7,8 @@ nav {
   box-shadow: 0 0 10px $main-black;
   text-transform: uppercase;
   transition: all 0.35s ease;
-  //   z-index: 3;
+  z-index: 3;
   .main-container {
-    // position: fixed;
     width: 100%;
     background: $main-white;
     padding: 1%;
@@ -19,12 +18,9 @@ nav {
     box-shadow: 0 0 10px $main-black;
     text-transform: uppercase;
     transition: all 0.35s ease;
-    // max-width: 1140px;
     z-index: 1;
 
     .main-header-logo {
-      //   margin: 20px;
-      //   height: 70px;
       height: 5rem;
     }
     .main-header-dropdown-button {
@@ -46,7 +42,6 @@ nav {
       border: 1px #000000 solid;
       border-radius: 8%;
       text-align: center;
-      // align-items: center;
       padding: auto;
       color: $main-white;
       &:hover {

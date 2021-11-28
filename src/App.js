@@ -2,6 +2,7 @@
 import Navigation from "./components/Navigation";
 import Header from "./sections/Header";
 import Me from "./sections/Me";
+import Portfolio from "./sections/Portfolio";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navigation />
       <Header />
       <Me />
+      <Portfolio />
     </div>
   );
 }

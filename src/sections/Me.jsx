@@ -15,17 +15,7 @@ const Me = () => {
         </dev>
         <div className="col-sm-12 col-md-6">
           <DecorationHexBlue localization={"decoration_hex-top-right"} />
-          {/* <img
-            className="decoration_hex-top-right"
-            src={hex_blue}
-            alt="hex_blue"
-          /> */}
           <DecorationHexMoreMix localization={"decoration_hex-bottom-right"} />
-          {/* <img
-            className="decoration_hex-bottom-right"
-            src="images/hex_more_mix.svg"
-            alt="more_mix"
-          /> */}
         </div>
         <div className="col-sm-12 col-md-6">
           <span className="me_title">Origins</span>
@@ -69,7 +59,6 @@ const Me = () => {
           </p>
         </div>
         <div className="col-sm-12 col-md-6">
-          {/* <DecorationHexGreen localization={"decoration_hex-top-right"} /> */}
           <DecorationHexMoreMix localization={"decoration_hex-mid-right"} />
         </div>
         <div className="col-sm-12 col-md-6">
@@ -109,11 +98,6 @@ const Me = () => {
         <div className="row">
           <dev className="col-sm-12 col-md-3">
             <DecorationHexMoreMix localization={"decoration_hex-mid-left"} />
-            {/* <img
-              className="decoration_hex-mid-left"
-              src="images/hex_more_mix.svg"
-              alt="duble_mix"
-            /> */}
           </dev>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
@@ -189,11 +173,6 @@ const Me = () => {
             <DecorationHexDubleMix
               localization={"decoration_hex-bottom-right"}
             />
-            {/* <img
-              className="decoration_hex-bottom-right"
-              src="images/hex_duble_mix.svg"
-              alt="duble_mix"
-            /> */}
           </dev>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
@@ -209,11 +188,6 @@ const Me = () => {
           </div>
           <div className="col-sm-12 col-md-3">
             <DecorationHexBlue localization={"decoration_hex-top-right"} />
-            {/* <img
-              classNameName="decoration_hex-top-right"
-              src="images/hex_blue.svg"
-              alt="hex_blue"
-            /> */}
           </div>
         </div>
       </div>

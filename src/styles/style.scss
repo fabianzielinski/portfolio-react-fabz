@@ -15,12 +15,12 @@
 /* Sections */
 @import "sections/header";
 @import "sections/me";
-// @import "sections/portfolio";
+@import "sections/portfolio";
 // @import "sections/contact";
 
 /* Pages / Views */
 // import "pages/registration";
 
 body {
-  background-color: $main-gray;
+  background-color: $main-gray-lgh;
 }
