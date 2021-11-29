@@ -1,11 +1,12 @@
 .portfolio {
-  // padding-top: 200px;
-  height: 100%;
-  width: 100%;
-  background-color: $main-gray;
-  // padding: 5%;
-  // margin: 4%;
-  // margin-bottom: 15%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  // background-color: $main-gray;
+  padding: 3%;
+  margin: 4%;
+  border: solid 2px $main-gray-hvr;
+  box-shadow: 10px 10px 5px $main-gray-hvr;
 
   .slider {
     // margin: 0 4%;
