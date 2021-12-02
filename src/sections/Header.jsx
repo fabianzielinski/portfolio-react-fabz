@@ -2,7 +2,7 @@ import photoMe from "../images/Photo_me2.jpg";
 
 const Header = () => {
   return (
-    <header>
+    <header id="header">
       <div className="welcome container flex-center">
         <img
           src={photoMe}

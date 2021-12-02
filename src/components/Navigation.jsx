@@ -14,7 +14,22 @@ const Navigation = () => {
           src={imageLogo}
           alt="logo in gray"
         />
-
+        <div className="main-header-menu">
+          <ul className="main-header-menu-line">
+            <li>
+              <a href="#header">Home</a>
+            </li>
+            <li>
+              <a href="#me">About</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
         <div className="main-header-dropdown-button flex-end">
           <Hamburger
             onToggle={(toggled) => setOpen(!isOpen)}
@@ -24,8 +39,8 @@ const Navigation = () => {
         </div>
       </div>
       {isOpen ? (
-        <div className="dropdown-menu">
-          <a href="index.html" className="dropdown-menu-main">
+        <div className="dropdown-menu" onClick={() => setOpen(!isOpen)}>
+          <a href="#header" className="dropdown-menu-main">
             <div>
               <Home size="80" color="#fff" variant="Broken" />
               <h1>Home</h1>
