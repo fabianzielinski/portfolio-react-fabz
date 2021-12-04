@@ -46,11 +46,11 @@ const portfoliolist = [
   {
     id: 5,
     src: spacelandingpage,
-    alt: "One page FW Jasna",
-    hrefdemo: "https://fabianzielinski.github.io/one-page-fw-jasna",
-    hrefgit: "https://github.com/fabianzielinski/one-page-fw-jasna",
-    title: "One Page Farma Wiatrowa Jasna",
-    techinfo: "Website, HTML, SCSS, RWD",
+    alt: "Space-landing-page",
+    hrefdemo: "https://fabianzielinski.github.io/space-landing-page",
+    hrefgit: "https://github.com/fabianzielinski/space-landing-page",
+    title: "Space-landing-page",
+    techinfo: "Website, HTML, SCSS, REACT",
   },
 ];
 

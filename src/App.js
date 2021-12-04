@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import Header from "./sections/Header";
 import Me from "./sections/Me";
 import Portfolio from "./sections/Portfolio";
+import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Me />
       <Portfolio />
+      <Contact />
       <Footer />
     </div>
   );
