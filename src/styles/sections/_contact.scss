@@ -1,0 +1,71 @@
+.contact {
+  padding: 2%;
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+
+  .content_page {
+    border-right: solid 2px $main-gray-hvr;
+    border-bottom: solid 2px $main-gray-hvr;
+    box-shadow: 10px 10px 5px $main-gray-hvr;
+    margin: 0 5% 5% 5%;
+    padding: 2% 0;
+    background-color: $main-gray;
+    color: $main-gray-lgh;
+    @include section;
+
+    .contact_hex-center {
+      @include hex-center;
+    }
+
+    .contact_hex-top-right {
+      @include hex-top-right;
+    }
+
+    .contact_hex-top-left {
+      @include hex-top-left;
+    }
+
+    .contact_hex-mid-right {
+      @include hex-mid-right;
+    }
+
+    .contact_hex-mid-top {
+      @include hex-mid-top;
+    }
+
+    .contact_hex-mid-bottom {
+      @include hex-mid-bottom;
+    }
+
+    .contact_title {
+      padding-top: 50px;
+    }
+
+    .contact_row {
+      padding-top: 50px;
+
+      .contact_link {
+        color: $main-gray-lgh;
+        height: auto;
+        //z-index: 2;
+
+        .contact_ico {
+          font-size: 50px;
+
+          &:hover {
+            color: $main-green;
+          }
+        }
+
+        .contact_name {
+          font-size: $sm-link-fsize;
+
+          &:hover {
+            color: $main-blue;
+          }
+        }
+      }
+    }
+  }
+}
