@@ -50,7 +50,6 @@ nav {
     min-height: 70vh;
     min-width: 80%;
     display: grid;
-    // grid-template: auto;
     grid-template-areas: "main me" "main portfolio" "contact portfolio";
     gap: 2%;
     a {

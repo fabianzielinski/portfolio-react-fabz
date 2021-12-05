@@ -5,7 +5,7 @@ const Footer = () => {
         <p class="footer__rights">
           Copyright © 2021 Fabian Zieliński
           <a class="footer__link" href="">
-            fz.pl
+            ` fz.pl
           </a>{" "}
           Wszelkie prawa zastrzeżone
         </p>
