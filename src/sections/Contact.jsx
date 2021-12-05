@@ -1,6 +1,6 @@
 import {
   DecorationHexBlue,
-  DecorationHexGreen,
+  // DecorationHexGreen,
   // DecorationHexDubleMix,
   // DecorationHexGreen,
   DecorationHexMoreMix,
@@ -8,76 +8,76 @@ import {
 
 const Contact = () => {
   return (
-    <section class="contact container flex-center" id="contact">
-      <div class="content_page">
-        {/* <img class="contact_hex-center hex" src="images/hex_more_mix.svg" alt="more_mix"/>
-                <img class="contact_hex-mid-top hex" src="images/hex_blue.svg" alt="hex_blue"/>
-                <img class="contact_hex-mid-bottom hex" src="images/hex_green.svg" alt="hex_green"/> */}
-        <DecorationHexMoreMix localization={"decoration_hex-center"} />
-        <div class="row contact_title">
-          <div class="col-sm-12 col-md-12">
+    <section className="contact container flex-center" id="contact">
+      <div className="content_page">
+        <div className="row contact_title">
+          <div className="col-sm-12 col-md-12">
             <h1>Contact</h1>
           </div>
         </div>
-        <div class="row contact_row">
-          <div class="col-sm-12 col-md-6">
+        <div className="row contact_row">
+          <div class="col-sm-12 col-md-4">
             <a
-              class="contact_link"
+              className="contact_link"
               href="mailto:fabian.zielinski@o2.pl"
               target="_blank"
               rel="noopener"
             >
-              <div class="contact_ico">
-                <i class="fas fa-envelope"></i>
+              <div className="contact_ico">
+                <i className="fas fa-envelope"></i>
               </div>
-              <p class="contact_name">fabian.zielinski@o2.pl</p>
+              <p className="contact_name">fabian.zielinski@o2.pl</p>
             </a>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div className="col-sm-12 col-md-4">
+            <DecorationHexMoreMix localization={"decoration_hex-center"} />
+          </div>
+          <div className="col-sm-12 col-md-4">
             <a
-              class="contact_link"
+              className="contact_link"
               href="https://drive.google.com/open?id=1fXnbec0vMPd6Cumd065jtCwL6fG3I0ZR"
               target="_blank"
               rel="noopener"
             >
-              <div class="contact_ico">
-                <i class="fas fa-file-pdf"></i>
+              <div className="contact_ico">
+                <i className="fas fa-file-pdf"></i>
               </div>
-              <p class="contact_name">Curriculum vitae</p>
+              <p className="contact_name">Curriculum vitae</p>
             </a>
           </div>
         </div>
 
-        <div class="row contact_row">
-          <div class=" col-sm-12 col-md-6">
+        <div className="row contact_row">
+          <div className=" col-sm-12 col-md-4">
             <a
-              class="contact_link"
+              className="contact_link"
               href="https://bit.ly/linked-fz"
               target="_blank"
               rel="noopener"
             >
-              <div class="contact_ico">
-                <i class="fab fa-linkedin"></i>
+              <div className="contact_ico">
+                <i className="fab fa-linkedin"></i>
               </div>
-              <p class="contact_name">https://bit.ly/linked-fz</p>
+              <p className="contact_name">https://bit.ly/linked-fz</p>
             </a>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div className="col-sm-12 col-md-4">
+            <DecorationHexBlue localization={"decoration_hex-mid-top"} />
+          </div>
+          <div className="col-sm-12 col-md-4">
             <a
-              class="contact_link"
+              className="contact_link"
               href="https://github.com/fabianzielinski"
               target="_blank"
               rel="noopener"
             >
-              <div class="contact_ico">
-                <i class="fab fa-github"></i>
+              <div className="contact_ico">
+                <i className="fab fa-github"></i>
               </div>
-              <p class="contact_name">github.com/fabianzielinski</p>
+              <p className="contact_name">github.com/fabianzielinski</p>
             </a>
           </div>
         </div>
-        <DecorationHexBlue localization={"decoration_hex-mid-top"} />
-        <DecorationHexGreen localization={"decoration_hex-mid-bottom"} />
       </div>
     </section>
   );
