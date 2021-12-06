@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-fabz/static/css/main.f07f6585.chunk.css",
+    "main.js": "/portfolio-react-fabz/static/js/main.a1aed33e.chunk.js",
+    "main.js.map": "/portfolio-react-fabz/static/js/main.a1aed33e.chunk.js.map",
+    "runtime-main.js": "/portfolio-react-fabz/static/js/runtime-main.2ce3f03f.js",
+    "runtime-main.js.map": "/portfolio-react-fabz/static/js/runtime-main.2ce3f03f.js.map",
+    "static/css/2.674c27c3.chunk.css": "/portfolio-react-fabz/static/css/2.674c27c3.chunk.css",
+    "static/js/2.669f0afb.chunk.js": "/portfolio-react-fabz/static/js/2.669f0afb.chunk.js",
+    "static/js/2.669f0afb.chunk.js.map": "/portfolio-react-fabz/static/js/2.669f0afb.chunk.js.map",
+    "static/js/3.9f1904da.chunk.js": "/portfolio-react-fabz/static/js/3.9f1904da.chunk.js",
+    "static/js/3.9f1904da.chunk.js.map": "/portfolio-react-fabz/static/js/3.9f1904da.chunk.js.map",
+    "index.html": "/portfolio-react-fabz/index.html",
+    "static/css/2.674c27c3.chunk.css.map": "/portfolio-react-fabz/static/css/2.674c27c3.chunk.css.map",
+    "static/css/main.f07f6585.chunk.css.map": "/portfolio-react-fabz/static/css/main.f07f6585.chunk.css.map",
+    "static/js/2.669f0afb.chunk.js.LICENSE.txt": "/portfolio-react-fabz/static/js/2.669f0afb.chunk.js.LICENSE.txt",
+    "static/media/Photo_me2.441e0d5d.jpg": "/portfolio-react-fabz/static/media/Photo_me2.441e0d5d.jpg",
+    "static/media/Store.9fd91219.png": "/portfolio-react-fabz/static/media/Store.9fd91219.png",
+    "static/media/cezar.b87b8e54.png": "/portfolio-react-fabz/static/media/cezar.b87b8e54.png",
+    "static/media/fw-jasna.63385c52.jpg": "/portfolio-react-fabz/static/media/fw-jasna.63385c52.jpg",
+    "static/media/hex_blue.dda3a9bc.svg": "/portfolio-react-fabz/static/media/hex_blue.dda3a9bc.svg",
+    "static/media/hex_duble_mix.15baa796.svg": "/portfolio-react-fabz/static/media/hex_duble_mix.15baa796.svg",
+    "static/media/hex_green.bbd77e18.svg": "/portfolio-react-fabz/static/media/hex_green.bbd77e18.svg",
+    "static/media/hex_more_mix.cb7f762f.svg": "/portfolio-react-fabz/static/media/hex_more_mix.cb7f762f.svg",
+    "static/media/style.scss": "/portfolio-react-fabz/static/media/old-black-background-wall_small.5e8ee24c.jpg",
+    "static/media/portfolio.de9f19fd.png": "/portfolio-react-fabz/static/media/portfolio.de9f19fd.png",
+    "static/media/space-landing-page.a8c8552e.png": "/portfolio-react-fabz/static/media/space-landing-page.a8c8552e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ce3f03f.js",
+    "static/css/2.674c27c3.chunk.css",
+    "static/js/2.669f0afb.chunk.js",
+    "static/css/main.f07f6585.chunk.css",
+    "static/js/main.a1aed33e.chunk.js"
+  ]
+}
