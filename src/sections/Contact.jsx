@@ -19,14 +19,14 @@ const Contact = () => {
           <div class="col-sm-12 col-md-4">
             <a
               className="contact_link"
-              href="mailto:fabian.zielinski@o2.pl"
+              href="mailto:fabian.m.zielinski@gmail.com"
               target="_blank"
               rel="noopener"
             >
               <div className="contact_ico">
                 <i className="fas fa-envelope"></i>
               </div>
-              <p className="contact_name">fabian.zielinski@o2.pl</p>
+              <p className="contact_name">fabian.m.zielinski@gmail.com</p>
             </a>
           </div>
           <div className="col-sm-12 col-md-4">
@@ -35,7 +35,7 @@ const Contact = () => {
           <div className="col-sm-12 col-md-4">
             <a
               className="contact_link"
-              href="https://drive.google.com/open?id=1fXnbec0vMPd6Cumd065jtCwL6fG3I0ZR"
+              href="https://drive.google.com/file/d/1MAozEWmw8rrqfEmNcevQawiD5bfSreWg/view?usp=sharing"
               target="_blank"
               rel="noopener"
             >

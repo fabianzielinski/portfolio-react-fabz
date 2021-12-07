@@ -5,6 +5,15 @@ import {
   DecorationHexDubleMix,
   DecorationHexMoreMix,
 } from "../components/Decoration";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3,
+  faJsSquare,
+  faSass,
+  faBootstrap,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Me = () => {
   return (
@@ -78,19 +87,19 @@ const Me = () => {
           </dev>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-html5"></i>
+              <FontAwesomeIcon icon={faHtml5} />
             </div>
             <p className="me_name">Html</p>
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-css3-alt"></i>
+              <FontAwesomeIcon icon={faCss3} />
             </div>
             <p className="me_name">CSS</p>
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-js-square"></i>
+              <FontAwesomeIcon icon={faJsSquare} />
             </div>
             <p className="me_name">JavaScript</p>
           </div>
@@ -101,19 +110,20 @@ const Me = () => {
           </dev>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-sass"></i>
+              <FontAwesomeIcon icon={faSass} />
             </div>
             <p className="me_name">Sass</p>
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-bootstrap"></i>
+              <FontAwesomeIcon icon={faBootstrap} />
             </div>
             <p className="me_name">Bootstrap</p>
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-react"></i>
+              {/* <i className="fab fa-react"></i> */}
+              <FontAwesomeIcon icon={faReact} />
             </div>
             <p className="me_name">React + Redux</p>
           </div>
