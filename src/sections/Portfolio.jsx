@@ -5,6 +5,7 @@ import store from "../images/Store.png";
 import cezar from "../images/cezar.png";
 import fwjasna from "../images/fw-jasna.jpg";
 import spacelandingpage from "../images/space-landing-page.png";
+import portfolioreact from "../images/portfolio-react.png";
 
 const portfoliolist = [
   {
@@ -56,6 +57,16 @@ const portfoliolist = [
     title: "Space-landing-page",
     techinfo: "Website, HTML, SCSS, REACT",
     info: "Simple one page in React .",
+  },
+  {
+    id: 6,
+    src: portfolioreact,
+    alt: "Portfolio React_Photo",
+    hrefdemo: "https://fabianzielinski.github.io/portfolio-react-fabz/",
+    hrefgit: "https://github.com/fabianzielinski/portfolio-react-fabz",
+    title: "One Page Portfolio in React",
+    techinfo: "Website, Javascript, HTML, SASS, RWD, Rect",
+    info: "Simple one page Portfolio in React.",
   },
 ];
 
