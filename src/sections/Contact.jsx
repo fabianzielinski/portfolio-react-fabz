@@ -5,6 +5,9 @@ import {
   // DecorationHexGreen,
   DecorationHexMoreMix,
 } from "../components/Decoration";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   return (
@@ -24,7 +27,7 @@ const Contact = () => {
               rel="noopener"
             >
               <div className="contact_ico">
-                <i className="fas fa-envelope"></i>
+                <FontAwesomeIcon icon={faEnvelope} />
               </div>
               <p className="contact_name">fabian.m.zielinski@gmail.com</p>
             </a>
@@ -40,7 +43,7 @@ const Contact = () => {
               rel="noopener"
             >
               <div className="contact_ico">
-                <i className="fas fa-file-pdf"></i>
+                <FontAwesomeIcon icon={faFilePdf} />
               </div>
               <p className="contact_name">Curriculum vitae</p>
             </a>
@@ -56,7 +59,7 @@ const Contact = () => {
               rel="noopener"
             >
               <div className="contact_ico">
-                <i className="fab fa-linkedin"></i>
+                <FontAwesomeIcon icon={faLinkedin} />
               </div>
               <p className="contact_name">https://bit.ly/linked-fz</p>
             </a>
@@ -72,7 +75,7 @@ const Contact = () => {
               rel="noopener"
             >
               <div className="contact_ico">
-                <i className="fab fa-github"></i>
+                <FontAwesomeIcon icon={faGithub} />
               </div>
               <p className="contact_name">github.com/fabianzielinski</p>
             </a>
