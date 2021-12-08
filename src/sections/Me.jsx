@@ -1,4 +1,3 @@
-// import hex_blue from "../images/hex_blue.svg";
 import {
   DecorationHexBlue,
   // DecorationHexGreen,
@@ -13,7 +12,15 @@ import {
   faSass,
   faBootstrap,
   faReact,
+  faNodeJs,
+  faEnvira,
+  faGitAlt,
+  faNpm,
+  faYarn,
+  faJira,
+  faSlack,
 } from "@fortawesome/free-brands-svg-icons";
+import { faLayerGroup } from "@fortawesome/free-solid-svg-icons";
 
 const Me = () => {
   return (
@@ -122,7 +129,6 @@ const Me = () => {
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              {/* <i className="fab fa-react"></i> */}
               <FontAwesomeIcon icon={faReact} />
             </div>
             <p className="me_name">React + Redux</p>
@@ -136,19 +142,19 @@ const Me = () => {
           </dev>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-node"></i>
+              <FontAwesomeIcon icon={faNodeJs} />
             </div>
             <p className="me_name">Node.js + Express</p>
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-envira"></i>
+              <FontAwesomeIcon icon={faEnvira} />
             </div>
             <p className="me_name">MongoDB</p>
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fas fa-layer-group"></i>
+              <FontAwesomeIcon icon={faLayerGroup} />
             </div>
             <p className="me_name">Stack MERN</p>
           </div>
@@ -161,19 +167,19 @@ const Me = () => {
           </dev>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-git-alt"></i>
+              <FontAwesomeIcon icon={faGitAlt} />
             </div>
             <p className="me_name">Git</p>
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-npm"></i>
+              <FontAwesomeIcon icon={faNpm} />
             </div>
             <p className="me_name">npm</p>
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-yarn"></i>
+              <FontAwesomeIcon icon={faYarn} />
             </div>
             <p className="me_name">Yarn</p>
           </div>
@@ -186,13 +192,13 @@ const Me = () => {
           </dev>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-jira"></i>
+              <FontAwesomeIcon icon={faJira} />
             </div>
             <p className="me_name">Jira</p>
           </div>
           <div className="col-sm-12 col-md-3">
             <div className="me_ico">
-              <i className="fab fa-slack"></i>
+              <FontAwesomeIcon icon={faSlack} />
             </div>
             <p className="me_name">Slack</p>
           </div>
