@@ -74,7 +74,13 @@ const Portfolio = () => {
       <Slider className="slider" {...settings}>
         {portfoliolist.map((project) => (
           <div className="project">
-            <img className="project_img" src={project.src} alt={project.alt} />
+            <a href={project.src} target="_blank">
+              <img
+                className="project_img"
+                src={project.src}
+                alt={project.alt}
+              />
+            </a>
             <a
               href={project.hrefdemo}
               className="project_link_demo"
