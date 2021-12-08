@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react-fabz/static/css/main.f07f6585.chunk.css",
-    "main.js": "/portfolio-react-fabz/static/js/main.1893806c.chunk.js",
-    "main.js.map": "/portfolio-react-fabz/static/js/main.1893806c.chunk.js.map",
+    "main.js": "/portfolio-react-fabz/static/js/main.e4c37d48.chunk.js",
+    "main.js.map": "/portfolio-react-fabz/static/js/main.e4c37d48.chunk.js.map",
     "runtime-main.js": "/portfolio-react-fabz/static/js/runtime-main.95546fb8.js",
     "runtime-main.js.map": "/portfolio-react-fabz/static/js/runtime-main.95546fb8.js.map",
     "static/css/2.674c27c3.chunk.css": "/portfolio-react-fabz/static/css/2.674c27c3.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/hex_green.bbd77e18.svg": "/portfolio-react-fabz/static/media/hex_green.bbd77e18.svg",
     "static/media/hex_more_mix.cb7f762f.svg": "/portfolio-react-fabz/static/media/hex_more_mix.cb7f762f.svg",
     "static/media/style.scss": "/portfolio-react-fabz/static/media/old-black-background-wall_small.5e8ee24c.jpg",
+    "static/media/portfolio-react.02517714.png": "/portfolio-react-fabz/static/media/portfolio-react.02517714.png",
     "static/media/portfolio.de9f19fd.png": "/portfolio-react-fabz/static/media/portfolio.de9f19fd.png",
     "static/media/space-landing-page.a8c8552e.png": "/portfolio-react-fabz/static/media/space-landing-page.a8c8552e.png"
   },
@@ -31,6 +32,6 @@
     "static/css/2.674c27c3.chunk.css",
     "static/js/2.613d6c1f.chunk.js",
     "static/css/main.f07f6585.chunk.css",
-    "static/js/main.1893806c.chunk.js"
+    "static/js/main.e4c37d48.chunk.js"
   ]
 }
