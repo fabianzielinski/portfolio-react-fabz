@@ -1,4 +1,4 @@
-# PORTFOLIO
+# ONE PAGE PORTFOLIO IN REACT
 
 ## Fabian Zieliński
 
